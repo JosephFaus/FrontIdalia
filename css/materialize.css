@@ -2244,7 +2244,7 @@ html {
  main {
    flex: 1 0 auto;
  }
- 
+
 body {
   margin: 0;
 }
@@ -6028,6 +6028,11 @@ textarea.materialize-textarea {
   min-height: 3rem;
 }
 
+.palabraResaltada{
+color: #26a69a;
+}
+
+}
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
