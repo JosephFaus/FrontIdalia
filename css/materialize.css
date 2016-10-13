@@ -1,4 +1,4 @@
-c/*!
+/*!
  * Materialize v0.97.7 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
@@ -2239,6 +2239,16 @@ html {
    display: flex;
    min-height: 100vh;
    flex-direction: column;
+  background-image:url("../media/back.jpg");
+  background-repeat: repeat-y;
+  background-size:100%;
+  background-position:center
+ }
+
+ .headImg
+ {
+   width: 100%;
+    height: auto;
  }
 
  main {
