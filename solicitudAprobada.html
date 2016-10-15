@@ -3,6 +3,7 @@
     <head>
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	  <link type="text/css" rel="stylesheet" href="css/local.css"  media="screen,projection"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
@@ -10,27 +11,23 @@
   <body>
       <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-      <header><img class="headImg" src="media/top.png"></header>
+      <header><img class="responsive-img" src="media/top.png"></header>
       <main>
   <div class="container">
       <div class="row">
-           <div class="col l8 m4  offset-l2">
-             <div class="card-panel teal">
-               <div class="row" style="background-color: #FFFFFF;">
+           <div class="col l8 m12 s12 offset-l2">
+             <div class="card-panel white" style="border-style:solid; border-width:2px; border-color:#6c1d45; ">
                  <h4 class="center-align"><b>3. Tu solicitud fue <span class="palabraResaltada"> aprobada</span></b></h4>
                  Hemos recibido <span class="palabraResaltada">correctamente</span> tu solicitud, te hemos enviado también a tu correo el código con el que podrás consultar si ya puedes recoger el o los documentos que solicitaste a ventanilla de Gestión Escolar
-                    <div class="container">
                    <div class="card-panel teal">
-                     <span class="white-text"><center>Código de Seguimiento: <label id="code"><span class="palabraResaltada">FDSA213</span></label></center></span>
-                   </div>
+				   <span class="white-text" style="font-size:35px;"><center>Código de Seguimiento: <label id="code"><span class="palabraResaltada">FDSA213</span></label></center></span>
                    </div>
                    Podrás recogerlo en ventanilla cuando el sistema indique que el estado de tu documento es: "Listo para entregar"<br><br>
                    <br>
                    <div class="row center-align">
                       <span>
-                          <a class="waves-effect waves-light btn">Finalizar</a>
+                          <a class="waves-effect waves-light btn" style=" background-color:#6c1d45;">Finalizar</a>
                         </span>
-                   </div>
                  </div>
                </div>
              </div>

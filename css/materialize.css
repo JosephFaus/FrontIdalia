@@ -2235,26 +2235,7 @@ html {
 /**
  * Remove default margin.
  */
- body {
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-  background-image:url("../media/back.jpg");
-  background-repeat: repeat-y;
-  background-size:100%;
-  background-position:center
- }
-
- .headImg
- {
-   width: 100%;
-    height: auto;
- }
-
- main {
-   flex: 1 0 auto;
- }
-
+ 
 body {
   margin: 0;
 }
@@ -2969,7 +2950,7 @@ ul.staggered-list li {
 }
 
 footer.page-footer {
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 20px;
   background-color: #6c1d45;
 }
@@ -6038,11 +6019,8 @@ textarea.materialize-textarea {
   min-height: 3rem;
 }
 
-.palabraResaltada{
-color: #26a69a;
-}
 
-}
+
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
